@@ -1,0 +1,495 @@
+[    3203ms] [WARNING] Please ensure that the container has a non-static position, like 'relative', 'fixed', or 'absolute' to ensure scroll offset is calculated correctly. @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[    3237ms] [WARNING] Image with src "/hero-athlete.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[    6230ms] [WARNING] Image with src "/hero-athlete.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[   24565ms] [WARNING] Image with src "/fac-2.png" has "fill" prop and "sizes" prop of "100vw", but image is not rendered at full viewport width. Please adjust "sizes" to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  286054ms] [WARNING] Please ensure that the container has a non-static position, like 'relative', 'fixed', or 'absolute' to ensure scroll offset is calculated correctly. @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  286074ms] [WARNING] Image with src "/hero-athlete.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  286097ms] [WARNING] Image with src "/fac-2.png" has "fill" prop and "sizes" prop of "100vw", but image is not rendered at full viewport width. Please adjust "sizes" to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  300076ms] [ERROR] ./src/components/CoachPreview.tsx:7:1
+Module not found: Can't resolve './SystemScan'
+   5 | import { ArchitecturalGrid } from "./ArchitecturalGrid";
+   6 | import { Radar, Target, Cpu, Hash } from "lucide-react";
+>  7 | import { SystemScan } from "./SystemScan";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import { VariableWeightScroll } from "./VariableWeightScroll";
+   9 |
+  10 | const COACHES = [
+
+Import traces:
+  Client Component Browser:
+    ./src/components/CoachPreview.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/CoachPreview.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:3272
+[  300076ms] [ERROR] ./src/components/Manifesto.tsx:5:1
+Module not found: Can't resolve './SystemScan'
+  3 | import { motion } from "framer-motion";
+  4 | import { KineticText } from "./KineticText";
+> 5 | import { SystemScan } from "./SystemScan";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import { VariableWeightScroll } from "./VariableWeightScroll";
+  7 |
+  8 | export function Manifesto() {
+
+Import traces:
+  Client Component Browser:
+    ./src/components/Manifesto.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/Manifesto.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:3272
+[  300077ms] [ERROR] ./src/components/MembershipCards.tsx:6:1
+Module not found: Can't resolve './SystemScan'
+  4 | import { Check, Shield } from "lucide-react";
+  5 | import { Perspective } from "./Perspective";
+> 6 | import { SystemScan } from "./SystemScan";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { VariableWeightScroll } from "./VariableWeightScroll";
+  8 |
+  9 | const PLANS = [
+
+Import traces:
+  Client Component Browser:
+    ./src/components/MembershipCards.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/MembershipCards.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:3272
+[  300077ms] [ERROR] ./src/components/CoachPreview.tsx:8:1
+Module not found: Can't resolve './VariableWeightScroll'
+   6 | import { Radar, Target, Cpu, Hash } from "lucide-react";
+   7 | import { SystemScan } from "./SystemScan";
+>  8 | import { VariableWeightScroll } from "./VariableWeightScroll";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | const COACHES = [
+  11 |   {
+
+Import traces:
+  Client Component Browser:
+    ./src/components/CoachPreview.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/CoachPreview.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:3272
+[  300077ms] [ERROR] ./src/components/Manifesto.tsx:6:1
+Module not found: Can't resolve './VariableWeightScroll'
+  4 | import { KineticText } from "./KineticText";
+  5 | import { SystemScan } from "./SystemScan";
+> 6 | import { VariableWeightScroll } from "./VariableWeightScroll";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | export function Manifesto() {
+  9 |   return (
+
+Import traces:
+  Client Component Browser:
+    ./src/components/Manifesto.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/Manifesto.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:3272
+[  300077ms] [ERROR] ./src/components/MembershipCards.tsx:7:1
+Module not found: Can't resolve './VariableWeightScroll'
+   5 | import { Perspective } from "./Perspective";
+   6 | import { SystemScan } from "./SystemScan";
+>  7 | import { VariableWeightScroll } from "./VariableWeightScroll";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 | const PLANS = [
+  10 |   {
+
+Import traces:
+  Client Component Browser:
+    ./src/components/MembershipCards.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/MembershipCards.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:3272
+[  300077ms] [ERROR] ./src/app/testimonials/page.tsx:10:1
+Module not found: Can't resolve '@/components/SystemScan'
+   8 | import { Footer } from "@/components/Footer";
+   9 | import { ArchitecturalGrid } from "@/components/ArchitecturalGrid";
+> 10 | import { SystemScan } from "@/components/SystemScan";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 |
+  12 | const TESTIMONIALS = [
+  13 |   {
+
+Import map: aliased to relative './src/components/SystemScan' inside of [project]/
+
+Import traces:
+  Client Component Browser:
+    ./src/app/testimonials/page.tsx [Client Component Browser]
+    ./src/app/testimonials/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/testimonials/page.tsx [Client Component SSR]
+    ./src/app/testimonials/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:3272
+[  300158ms] [ERROR] ./src/components/CoachPreview.tsx:7:1
+Module not found: Can't resolve './SystemScan'
+   5 | import { ArchitecturalGrid } from "./ArchitecturalGrid";
+   6 | import { Radar, Target, Cpu, Hash } from "lucide-react";
+>  7 | import { SystemScan } from "./SystemScan";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import { VariableWeightScroll } from "./VariableWeightScroll";
+   9 |
+  10 | const COACHES = [
+
+Import traces:
+  Client Component Browser:
+    ./src/components/CoachPreview.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/CoachPreview.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:3272
+[  300159ms] [ERROR] ./src/components/Manifesto.tsx:5:1
+Module not found: Can't resolve './SystemScan'
+  3 | import { motion } from "framer-motion";
+  4 | import { KineticText } from "./KineticText";
+> 5 | import { SystemScan } from "./SystemScan";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import { VariableWeightScroll } from "./VariableWeightScroll";
+  7 |
+  8 | export function Manifesto() {
+
+Import traces:
+  Client Component Browser:
+    ./src/components/Manifesto.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/Manifesto.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:3272
+[  300159ms] [ERROR] ./src/components/MembershipCards.tsx:6:1
+Module not found: Can't resolve './SystemScan'
+  4 | import { Check, Shield } from "lucide-react";
+  5 | import { Perspective } from "./Perspective";
+> 6 | import { SystemScan } from "./SystemScan";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import { VariableWeightScroll } from "./VariableWeightScroll";
+  8 |
+  9 | const PLANS = [
+
+Import traces:
+  Client Component Browser:
+    ./src/components/MembershipCards.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/MembershipCards.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:3272
+[  300159ms] [ERROR] ./src/components/CoachPreview.tsx:8:1
+Module not found: Can't resolve './VariableWeightScroll'
+   6 | import { Radar, Target, Cpu, Hash } from "lucide-react";
+   7 | import { SystemScan } from "./SystemScan";
+>  8 | import { VariableWeightScroll } from "./VariableWeightScroll";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | const COACHES = [
+  11 |   {
+
+Import traces:
+  Client Component Browser:
+    ./src/components/CoachPreview.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/CoachPreview.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:3272
+[  300159ms] [ERROR] ./src/components/Manifesto.tsx:6:1
+Module not found: Can't resolve './VariableWeightScroll'
+  4 | import { KineticText } from "./KineticText";
+  5 | import { SystemScan } from "./SystemScan";
+> 6 | import { VariableWeightScroll } from "./VariableWeightScroll";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | export function Manifesto() {
+  9 |   return (
+
+Import traces:
+  Client Component Browser:
+    ./src/components/Manifesto.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/Manifesto.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:3272
+[  300159ms] [ERROR] ./src/components/MembershipCards.tsx:7:1
+Module not found: Can't resolve './VariableWeightScroll'
+   5 | import { Perspective } from "./Perspective";
+   6 | import { SystemScan } from "./SystemScan";
+>  7 | import { VariableWeightScroll } from "./VariableWeightScroll";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 |
+   9 | const PLANS = [
+  10 |   {
+
+Import traces:
+  Client Component Browser:
+    ./src/components/MembershipCards.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/MembershipCards.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:3272
+[  300159ms] [ERROR] ./src/app/testimonials/page.tsx:10:1
+Module not found: Can't resolve '@/components/SystemScan'
+   8 | import { Footer } from "@/components/Footer";
+   9 | import { ArchitecturalGrid } from "@/components/ArchitecturalGrid";
+> 10 | import { SystemScan } from "@/components/SystemScan";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 |
+  12 | const TESTIMONIALS = [
+  13 |   {
+
+Import map: aliased to relative './src/components/SystemScan' inside of [project]/
+
+Import traces:
+  Client Component Browser:
+    ./src/app/testimonials/page.tsx [Client Component Browser]
+    ./src/app/testimonials/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/testimonials/page.tsx [Client Component SSR]
+    ./src/app/testimonials/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:3272
+[  302728ms] [WARNING] Image with src "/fac-1.png" has "fill" prop and "sizes" prop of "100vw", but image is not rendered at full viewport width. Please adjust "sizes" to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  988834ms] [ERROR] ./src/components/CoachPreview.tsx:8:1
+Module not found: Can't resolve './SystemScan'
+   6 | import { Radar, Target, Cpu, Hash } from "lucide-react";
+   7 | import { VariableWeightScroll } from "./VariableWeightScroll";
+>  8 | import { SystemScan } from "./SystemScan";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | const COACHES = [
+  11 |   {
+
+Import traces:
+  Client Component Browser:
+    ./src/components/CoachPreview.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/CoachPreview.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:3272
+[  988835ms] [ERROR] ./src/components/CoachPreview.tsx:7:1
+Module not found: Can't resolve './VariableWeightScroll'
+   5 | import { ArchitecturalGrid } from "./ArchitecturalGrid";
+   6 | import { Radar, Target, Cpu, Hash } from "lucide-react";
+>  7 | import { VariableWeightScroll } from "./VariableWeightScroll";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import { SystemScan } from "./SystemScan";
+   9 |
+  10 | const COACHES = [
+
+Import traces:
+  Client Component Browser:
+    ./src/components/CoachPreview.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/CoachPreview.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:3272
+[  988835ms] [ERROR] ./src/components/HorizontalScroll.tsx:6:1
+Module not found: Can't resolve './VariableWeightScroll'
+  4 | import { useRef, useEffect, useState } from "react";
+  5 | import Image from "next/image";
+> 6 | import { VariableWeightScroll } from "./VariableWeightScroll";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | interface Section {
+  9 |   id: string;
+
+Import traces:
+  Client Component Browser:
+    ./src/components/HorizontalScroll.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/HorizontalScroll.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:3272
+[  988836ms] [ERROR] ./src/components/CoachPreview.tsx:8:1
+Module not found: Can't resolve './SystemScan'
+   6 | import { Radar, Target, Cpu, Hash } from "lucide-react";
+   7 | import { VariableWeightScroll } from "./VariableWeightScroll";
+>  8 | import { SystemScan } from "./SystemScan";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 |
+  10 | const COACHES = [
+  11 |   {
+
+Import traces:
+  Client Component Browser:
+    ./src/components/CoachPreview.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/CoachPreview.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:3272
+[  988836ms] [ERROR] ./src/components/CoachPreview.tsx:7:1
+Module not found: Can't resolve './VariableWeightScroll'
+   5 | import { ArchitecturalGrid } from "./ArchitecturalGrid";
+   6 | import { Radar, Target, Cpu, Hash } from "lucide-react";
+>  7 | import { VariableWeightScroll } from "./VariableWeightScroll";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   8 | import { SystemScan } from "./SystemScan";
+   9 |
+  10 | const COACHES = [
+
+Import traces:
+  Client Component Browser:
+    ./src/components/CoachPreview.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/CoachPreview.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:3272
+[  988836ms] [ERROR] ./src/components/HorizontalScroll.tsx:6:1
+Module not found: Can't resolve './VariableWeightScroll'
+  4 | import { useRef, useEffect, useState } from "react";
+  5 | import Image from "next/image";
+> 6 | import { VariableWeightScroll } from "./VariableWeightScroll";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | interface Section {
+  9 |   id: string;
+
+Import traces:
+  Client Component Browser:
+    ./src/components/HorizontalScroll.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/HorizontalScroll.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:3272
+[ 1582318ms] TypeError: Cannot read properties of undefined (reading 'map')
+    at eval (http://localhost:3000/_next/static/chunks/src_00rg08j._.js?id=%255Bproject%255D%252Fsrc%252Fcomponents%252FMembershipCards.tsx+%255Bapp-client%255D+%2528ecmascript%2529:291:78)
+    at Array.map (<anonymous>)
+    at MembershipCards (http://localhost:3000/_next/static/chunks/src_00rg08j._.js?id=%255Bproject%255D%252Fsrc%252Fcomponents%252FMembershipCards.tsx+%255Bapp-client%255D+%2528ecmascript%2529:191:41)
+    at Object.react_stack_bottom_frame (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:15037:24)
+    at renderWithHooks (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:4620:24)
+    at updateFunctionComponent (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:6081:21)
+    at beginWork (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:6691:24)
+    at runWithFiberInDEV (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:965:74)
+    at performUnitOfWork (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:9555:97)
+    at workLoopSync (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:9449:40)
+    at renderRootSync (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:9433:13)
+    at performWorkOnRoot (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:9098:47)
+    at performSyncWorkOnRoot (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:10263:9)
+    at flushSyncWorkAcrossRoots_impl (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:10179:316)
+    at flushSyncWork$1 (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:9230:86)
+    at Object.scheduleRefresh (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_react-dom_058-ah~._.js:299:13)
+    at http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_0rpq4pf._.js:391:33
+    at Set.forEach (<anonymous>)
+    at Object.performReactRefresh (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_0rpq4pf._.js:384:38)
+    at applyUpdate (http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_0rpq4pf._.js:878:31)
+    at http://localhost:3000/_next/static/chunks/node_modules_next_dist_compiled_0rpq4pf._.js:886:13
+[ 1598143ms] [WARNING] [Fast Refresh] performing full reload because your application had an unrecoverable error @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 1598330ms] [WARNING] [Fast Refresh] performing full reload because your application had an unrecoverable error @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 1599042ms] [WARNING] Please ensure that the container has a non-static position, like 'relative', 'fixed', or 'absolute' to ensure scroll offset is calculated correctly. @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 1599077ms] [WARNING] Image with src "/hero-athlete.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 1606016ms] [WARNING] Image with src "/fac-1.png" has "fill" prop and "sizes" prop of "100vw", but image is not rendered at full viewport width. Please adjust "sizes" to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 1815632ms] [WARNING] Image with src "/fac-1.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 1815641ms] [WARNING] Image with src "/void-core.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 1815647ms] [WARNING] Image with src "/recovery-chamber.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 1819098ms] [WARNING] Image with src "/fac-2.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 1833644ms] [WARNING] Image with src "/marcus.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 1834502ms] [WARNING] Image with src "/elena.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 1835779ms] [WARNING] Image with src "/coach-1.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 1935638ms] [WARNING] Image with src "/void-core.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 1935639ms] [WARNING] Image with src "/recovery-chamber.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 1935642ms] [WARNING] Image with src "/fac-1.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 1935644ms] [WARNING] Image with src "/fac-2.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 2089567ms] [WARNING] Image with src "/void-core.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 2089573ms] [WARNING] Image with src "/recovery-chamber.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 2089574ms] [WARNING] Image with src "/fac-1.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 2089576ms] [WARNING] Image with src "/fac-2.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 2091607ms] [WARNING] Image with src "/recovery-chamber.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[ 2092607ms] [WARNING] Image with src "/void-core.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431

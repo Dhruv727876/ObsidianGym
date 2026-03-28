@@ -1,26 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Manrope:wght@200..800&family=Space+Mono:ital,wght@0,400;0,700;1,400&family=Space+Grotesk:wght@300..700&display=swap');
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+@theme {
+  --color-obsidian-void: #131315;
+  --color-obsidian-gold: #E6C364;
+  --color-obsidian-charcoal: #1A1A1C;
+  --color-obsidian-offwhite: #F0F0F0;
+  --color-obsidian-muted: #D0C5B2;
+  
+  --font-serif: "Noto Serif", serif;
+  --font-sans: "Manrope", sans-serif;
+  --font-mono: "Space Mono", monospace;
+
+  --spacing-18: 4.5rem;
+  --spacing-22: 5.5rem;
+  --spacing-26: 6.5rem;
+  --spacing-30: 7.5rem;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
+@layer base {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --background: var(--color-obsidian-void);
+    --foreground: var(--color-obsidian-offwhite);
+  }
+
+  /* Hide browser scrollbar for that clean monolithic immersion */
+  * {
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+  }
+  
+  *::-webkit-scrollbar {
+    display: none;
+  }
+
+  body {
+    @apply bg-obsidian-void text-obsidian-offwhite font-sans antialiased overflow-x-hidden;
+    letter-spacing: -0.01em;
+  }
+
+  h1, h2, h3, h4, .font-display {
+    @apply font-serif italic;
+    line-height: 1.1;
+  }
+
+  /* Lenis Smooth Scroll Foundations */
+  html.lenis,
+  html.lenis body {
+    height: auto;
+  }
+
+  .lenis.lenis-smooth {
+    scroll-behavior: auto !important;
+  }
+
+  .lenis.lenis-smooth [data-lenis-prevent] {
+    overscroll-behavior: contain;
+  }
+
+  .lenis.lenis-stopped {
+    overflow: hidden;
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+@layer utilities {
+  .vertical-rl {
+    writing-mode: vertical-rl;
+  }
+
+  .obsidian-glass {
+    @apply bg-obsidian-charcoal/60 backdrop-blur-xl border border-obsidian-offwhite/10;
+  }
+  
+  .obsidian-noise {
+    position: relative;
+    &::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
+      opacity: 0.03;
+      pointer-events: none;
+      z-index: 10;
+    }
+  }
+
+  .text-label {
+    @apply font-sans uppercase tracking-[0.15em] text-xs font-semibold;
+  }
+
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+  /* Cinematic Glitch Shifter */
+  @keyframes scanline-glitch {
+    0% { transform: translate(0); filter: hue-rotate(0deg); }
+    10% { transform: translate(-2px, -1px); filter: hue-rotate(45deg); opacity: 0.8; }
+    20% { transform: translate(2px, 1px); }
+    30% { transform: translate(-1px, 2px); filter: hue-rotate(-45deg); }
+    40% { transform: translate(0); }
+  }
+
+  @keyframes scan {
+    0% { transform: translateY(-100%); opacity: 0; }
+    20% { opacity: 1; }
+    80% { opacity: 1; }
+    100% { transform: translateY(800px); opacity: 0; }
+  }
+
+  .hover-glitch:hover {
+    animation: scanline-glitch 0.2s cubic-bezier(.25, .46, .45, .94) both infinite;
+  }
+
+  .animate-scan {
+    animation: scan 3s linear infinite;
+  }
 }

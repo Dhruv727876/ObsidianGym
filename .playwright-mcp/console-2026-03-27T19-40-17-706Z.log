@@ -1,0 +1,144 @@
+[    2960ms] [ERROR] ./src/components/MembershipCards.tsx:10:14
+Expected ',', got 'ident'
+   8 |
+   9 | const PLANS = [
+> 10 |   ... (PLANS data remains high-precision as before)
+     |              ^^^^
+  11 | ];
+  12 |
+  13 | // Re-writing with cleaned imports and grid
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/MembershipCards.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/MembershipCards.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:3272
+[    2964ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/:0
+[    3698ms] Error: ./src/components/MembershipCards.tsx:10:14
+Expected ',', got 'ident'
+   8 |
+   9 | const PLANS = [
+> 10 |   ... (PLANS data remains high-precision as before)
+     |              ^^^^
+  11 | ];
+  12 |
+  13 | // Re-writing with cleaned imports and grid
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/MembershipCards.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/MembershipCards.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component]
+
+
+    at <unknown> (Error: ./src/components/MembershipCards.tsx:10:14)
+    at Object.getCompilationErrors (file://C:\Users\User\.gemini\antigravity\scratch\obsidian-noir\node_modules\next\dist\server\dev\hot-reloader-turbopack.js:1189:59)
+    at DevBundlerService.getCompilationError (file://C:\Users\User\.gemini\antigravity\scratch\obsidian-noir\node_modules\next\dist\server\lib\dev-bundler-service.js:44:55)
+    at DevServer.getCompilationError (file://C:\Users\User\.gemini\antigravity\scratch\obsidian-noir\node_modules\next\dist\server\dev\next-dev-server.js:719:42)
+    at DevServer.findPageComponents (file://C:\Users\User\.gemini\antigravity\scratch\obsidian-noir\node_modules\next\dist\server\dev\next-dev-server.js:689:43)
+    at async DevServer.renderErrorToResponseImpl (file://C:\Users\User\.gemini\antigravity\scratch\obsidian-noir\node_modules\next\dist\server\base-server.js:1745:26)
+[    3701ms] [ERROR] ./src/components/MembershipCards.tsx:10:14
+Expected ',', got 'ident'
+   8 |
+   9 | const PLANS = [
+> 10 |   ... (PLANS data remains high-precision as before)
+     |              ^^^^
+  11 | ];
+  12 |
+  13 | // Re-writing with cleaned imports and grid
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/MembershipCards.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/MembershipCards.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[    3702ms] [ERROR] ./src/components/MembershipCards.tsx:10:14
+Expected ',', got 'ident'
+   8 |
+   9 | const PLANS = [
+> 10 |   ... (PLANS data remains high-precision as before)
+     |              ^^^^
+  11 | ];
+  12 |
+  13 | // Re-writing with cleaned imports and grid
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/MembershipCards.tsx [Client Component Browser]
+    ./src/app/membership/page.tsx [Client Component Browser]
+    ./src/app/membership/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/MembershipCards.tsx [Client Component SSR]
+    ./src/app/membership/page.tsx [Client Component SSR]
+    ./src/app/membership/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[    3765ms] [ERROR] ./src/components/MembershipCards.tsx:10:14
+Expected ',', got 'ident'
+   8 |
+   9 | const PLANS = [
+> 10 |   ... (PLANS data remains high-precision as before)
+     |              ^^^^
+  11 | ];
+  12 |
+  13 | // Re-writing with cleaned imports and grid
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/MembershipCards.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/MembershipCards.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[    8038ms] [ERROR] ./src/components/MembershipCards.tsx:10:14
+Expected ',', got 'ident'
+   8 |
+   9 | const PLANS = [
+> 10 |   ... (PLANS data remains high-precision as before)
+     |              ^^^^
+  11 | ];
+  12 |
+  13 | // Re-writing with cleaned imports and grid
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/MembershipCards.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/MembershipCards.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[   22811ms] [WARNING] [Fast Refresh] performing full reload because your application had an unrecoverable error @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[   26292ms] [WARNING] Please ensure that the container has a non-static position, like 'relative', 'fixed', or 'absolute' to ensure scroll offset is calculated correctly. @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[   26327ms] [WARNING] Image with src "/hero-athlete.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431

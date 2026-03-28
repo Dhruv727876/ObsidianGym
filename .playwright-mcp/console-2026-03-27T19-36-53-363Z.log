@@ -1,0 +1,84 @@
+[     308ms] [WARNING] Image with src "/marcus.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[   56925ms] [WARNING] Image with src "/elena.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[   97732ms] [WARNING] Image with src "/coach-1.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  100366ms] [WARNING] Please ensure that the container has a non-static position, like 'relative', 'fixed', or 'absolute' to ensure scroll offset is calculated correctly. @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  100384ms] [WARNING] Image with src "/hero-athlete.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  103581ms] [WARNING] Image with src "/fac-1.png" has "fill" prop and "sizes" prop of "100vw", but image is not rendered at full viewport width. Please adjust "sizes" to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  136148ms] [WARNING] Image with src "/fac-2.png" has "fill" prop and "sizes" prop of "100vw", but image is not rendered at full viewport width. Please adjust "sizes" to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  147772ms] [WARNING] The resource http://localhost:3000/_next/static/media/b4e85636e2ca4056-s.p.0c3c6tp9xl371.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ http://localhost:3000/:0
+[  147772ms] [WARNING] The resource http://localhost:3000/_next/static/media/8d05cfa5faa8406c-s.p.0kbulo~7o8gic.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ http://localhost:3000/:0
+[  147883ms] [WARNING] Please ensure that the container has a non-static position, like 'relative', 'fixed', or 'absolute' to ensure scroll offset is calculated correctly. @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  147922ms] [WARNING] Image with src "/hero-athlete.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  147930ms] [WARNING] Image with src "/fac-2.png" has "fill" prop and "sizes" prop of "100vw", but image is not rendered at full viewport width. Please adjust "sizes" to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2431
+[  154553ms] [WARNING] The resource http://localhost:3000/_next/static/media/b4e85636e2ca4056-s.p.0c3c6tp9xl371.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ http://localhost:3000/:0
+[  154553ms] [WARNING] The resource http://localhost:3000/_next/static/media/8d05cfa5faa8406c-s.p.0kbulo~7o8gic.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ http://localhost:3000/:0
+[  154882ms] [ERROR] ./src/app/facilities/page.tsx:12:14
+Expected ',', got 'ident'
+  10 |
+  11 | const ZONES = [
+> 12 |   ... (ZONES content same as before)
+     |              ^^^^^^^
+  13 | ];
+  14 |
+  15 | export default function Facilities() {
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/app/facilities/page.tsx [Client Component Browser]
+    ./src/app/facilities/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/facilities/page.tsx [Client Component SSR]
+    ./src/app/facilities/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:3272
+[  157954ms] [WARNING] The resource http://localhost:3000/_next/static/media/b4e85636e2ca4056-s.p.0c3c6tp9xl371.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ http://localhost:3000/:0
+[  157954ms] [WARNING] The resource http://localhost:3000/_next/static/media/8d05cfa5faa8406c-s.p.0kbulo~7o8gic.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ http://localhost:3000/:0
+[  173814ms] [WARNING] The resource http://localhost:3000/_next/static/media/b4e85636e2ca4056-s.p.0c3c6tp9xl371.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ http://localhost:3000/:0
+[  173814ms] [WARNING] The resource http://localhost:3000/_next/static/media/8d05cfa5faa8406c-s.p.0kbulo~7o8gic.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ http://localhost:3000/:0
+[  186958ms] [ERROR] ./src/components/MembershipCards.tsx:10:14
+Expected ',', got 'ident'
+   8 |
+   9 | const PLANS = [
+> 10 |   ... (PLANS data remains high-precision as before)
+     |              ^^^^
+  11 | ];
+  12 |
+  13 | // Re-writing with cleaned imports and grid
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/MembershipCards.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/MembershipCards.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:3272
+[  189981ms] [WARNING] The resource http://localhost:3000/_next/static/media/b4e85636e2ca4056-s.p.0c3c6tp9xl371.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ http://localhost:3000/:0
+[  189981ms] [WARNING] The resource http://localhost:3000/_next/static/media/8d05cfa5faa8406c-s.p.0kbulo~7o8gic.woff2 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ http://localhost:3000/:0
+[  198839ms] [ERROR] ./src/components/MembershipCards.tsx:10:14
+Expected ',', got 'ident'
+   8 |
+   9 | const PLANS = [
+> 10 |   ... (PLANS data remains high-precision as before)
+     |              ^^^^
+  11 | ];
+  12 |
+  13 | // Re-writing with cleaned imports and grid
+
+Parsing ecmascript source code failed
+
+Import traces:
+  Client Component Browser:
+    ./src/components/MembershipCards.tsx [Client Component Browser]
+    ./src/app/page.tsx [Client Component Browser]
+    ./src/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/components/MembershipCards.tsx [Client Component SSR]
+    ./src/app/page.tsx [Client Component SSR]
+    ./src/app/page.tsx [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:3272
