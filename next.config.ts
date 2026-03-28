@@ -1,13 +1,17 @@
 import type { NextConfig } from "next";
 
+const isGithubActions = process.env.GITHUB_ACTIONS === 'true';
+const repoName = 'ObsidianGym';
+
 const nextConfig: NextConfig = {
   output: 'export',
+  // Hardcoded for GitHub Pages subpath
+  basePath: isGithubActions ? `/${repoName}` : '',
+  assetPrefix: isGithubActions ? `/${repoName}` : '',
+  trailingSlash: true,
   images: {
     unoptimized: true,
   },
-  // Ensure assets load correctly from the /ObsidianGym subpath on GitHub Pages
-  basePath: process.env.NODE_ENV === 'production' ? '/ObsidianGym' : '',
-  assetPrefix: process.env.NODE_ENV === 'production' ? '/ObsidianGym' : '',
 };
 
 export default nextConfig;

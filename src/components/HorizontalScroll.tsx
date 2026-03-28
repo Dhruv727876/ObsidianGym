@@ -62,10 +62,21 @@ export function HorizontalScroll() {
       {/* Increased padding-top to account for the fixed navbar and ensure content starts below branding */}
       <div className="sticky top-0 h-screen w-full flex flex-col justify-end pb-12 overflow-hidden pt-24">
 
-        {/* Cinematic Grid & Atmosphere */}
-        <div className="absolute inset-0 z-0 bg-obsidian-charcoal/20">
-          <div className="absolute inset-x-0 h-[300px] top-1/2 -translate-y-1/2 bg-obsidian-gold/5 blur-[120px] pointer-events-none" />
-          <div className="absolute inset-0 bg-[url('/hero-athlete.png')] bg-cover opacity-[0.02] grayscale brightness-50" />
+          <div 
+            className="absolute inset-0 z-0 bg-obsidian-charcoal/20 flex items-center justify-center overflow-hidden"
+          >
+            <div className="absolute inset-x-0 h-[300px] top-1/2 -translate-y-1/2 bg-obsidian-gold/5 blur-[120px] pointer-events-none" />
+            
+            {/* Using Next Image for background to handle basePath automatically */}
+            <div className="absolute inset-0 opacity-[0.02] grayscale brightness-50 z-0">
+               <Image 
+                 src="/hero-athlete.png" 
+                 alt="HUD background" 
+                 fill 
+                 className="object-cover"
+                 priority
+               />
+            </div>
           {/* Subtle Grid Pattern (CSS) */}
           <div 
             className="absolute inset-0 opacity-[0.05] pointer-events-none"
