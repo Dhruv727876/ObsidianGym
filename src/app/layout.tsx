@@ -25,6 +25,8 @@ const spaceMono = Space_Mono({
   weight: ["400", "700"],
 });
 
+import { getAssetPath } from "@/lib/utils";
+
 export const metadata: Metadata = {
   title: "OBSIDIAN NOIR | The Silent Authority",
   description: "Elite performance engineering for the global 1%. Join the protocol.",
@@ -37,6 +39,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <link rel="icon" href={getAssetPath("/favicon.ico")} />
+      </head>
       <body
         className={`${notoSerif.variable} ${manrope.variable} ${spaceMono.variable} antialiased`}
       >

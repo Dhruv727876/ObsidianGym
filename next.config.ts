@@ -1,17 +1,13 @@
 import type { NextConfig } from "next";
 
-const isGithubActions = process.env.GITHUB_ACTIONS === 'true';
-const repoName = 'ObsidianGym';
+const isProd = process.env.NODE_ENV === 'production';
+const base = isProd ? '/ObsidianGym' : '';
 
 const nextConfig: NextConfig = {
   output: 'export',
-  // Hardcoded for GitHub Pages subpath
-  basePath: isGithubActions ? `/${repoName}` : '',
-  assetPrefix: isGithubActions ? `/${repoName}` : '',
+  basePath: base,
+  assetPrefix: base || undefined, // undefined in dev, /ObsidianGym in prod
   trailingSlash: true,
-  env: {
-    NEXT_PUBLIC_BASE_PATH: isGithubActions ? `/${repoName}` : '',
-  },
   images: {
     unoptimized: true,
   },

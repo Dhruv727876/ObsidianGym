@@ -9,12 +9,16 @@ export function getAssetPath(path: string) {
   // Return early if it's already a full URL
   if (path.startsWith('http') || path.startsWith('//')) return path;
   
-  // Use prefix from environment variable or default to empty string
-  // This will be set during GitHub Actions build
-  const prefix = process.env.NEXT_PUBLIC_BASE_PATH || '';
-  
-  // Ensure we don't double slash
+  const repoName = 'ObsidianGym';
   const cleanPath = path.startsWith('/') ? path : `/${path}`;
   
-  return `${prefix}${cleanPath}`;
+  // Check if we are in a production/CI environment
+  const isProd = process.env.NODE_ENV === 'production' || process.env.GITHUB_ACTIONS === 'true';
+  
+  if (isProd) {
+    // Force the repository name prefix for GitHub Pages
+    return `/${repoName}${cleanPath}`;
+  }
+  
+  return cleanPath;
 }
