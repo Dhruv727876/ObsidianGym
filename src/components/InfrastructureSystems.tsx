@@ -9,7 +9,7 @@ const INFRASTRUCTURE = [
     id: "01",
     name: "KINETIC VOID",
     desc: "The core heavy-lift arena. High-gravity environment with integrated biometric floor sensors and zero-latency feedback loops.",
-    img: "/elite_gym_void_core_1774638284572.png",
+    img: "/void-core.png",
     specs: [
       { label: "BIOMETRIC NODES", value: "248 / M2" },
       { label: "GRAVITY SYNC", value: "ACTIVE" },
@@ -31,7 +31,7 @@ const INFRASTRUCTURE = [
     id: "03",
     name: "RECOVERY UNIT",
     desc: "Advanced neurological restoration. Deep cryogenic immersion and infrared cellular stimulus protocols for near-instant repair.",
-    img: "/elite_recovery_chamber_1774638320989.png",
+    img: "/recovery-chamber.png",
     specs: [
       { label: "THERMAL GAP", value: "-145 C" },
       { label: "CELLULAR SYNC", value: "DEEP_TISSUE" },
