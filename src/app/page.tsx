@@ -1,3 +1,4 @@
+import { getAssetPath } from "@/lib/utils";
 import { Hero } from "@/components/Hero";
 import { Manifesto } from "@/components/Manifesto";
 import { MembershipCards } from "@/components/MembershipCards";
@@ -46,7 +47,7 @@ export default function Home() {
 
         <div className="relative h-[60vh] lg:h-[90vh] w-full transform lg:translate-y-24 group">
           <ApertureImage
-            src="/fac-1.png"
+            src={getAssetPath("/fac-1.png")}
             alt="Elite Environment"
           />
           <div className="absolute inset-x-0 bottom-8 lg:bottom-12 px-8 lg:px-12 z-20 flex justify-between items-end">

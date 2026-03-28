@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import { Navigation } from "@/components/Navigation";
 import { Footer } from "@/components/Footer";
 import Image from "next/image";
+import { getAssetPath } from "@/lib/utils";
 
 export default function Philosophy() {
   return (
@@ -37,7 +38,7 @@ export default function Philosophy() {
           className="relative h-[80vh] w-full"
         >
           <Image 
-             src="/hero-athlete.png"
+             src={getAssetPath("/hero-athlete.png")}
              alt="Elite Performance"
              fill
              className="object-cover grayscale"

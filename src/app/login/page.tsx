@@ -5,6 +5,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { ArrowLeft, Cpu, ShieldCheck } from "lucide-react";
 import { useEffect, useState } from "react";
+import { getAssetPath } from "@/lib/utils";
 
 export default function Login() {
   const [time, setTime] = useState("");
@@ -62,7 +63,7 @@ export default function Login() {
              className="relative h-full w-full"
           >
             <Image 
-               src="/hero-athlete.png"
+               src={getAssetPath("/hero-athlete.png")}
                alt="Elite Archive"
                fill
                className="object-cover grayscale brightness-50"

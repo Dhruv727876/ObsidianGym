@@ -3,6 +3,7 @@
 import { motion, useScroll, useTransform, useSpring } from "framer-motion";
 import { useRef, useEffect, useState } from "react";
 import Image from "next/image";
+import { getAssetPath } from "@/lib/utils";
 
 interface Section {
   id: string;
@@ -13,14 +14,14 @@ interface Section {
 }
 
 const SECTIONS_RAW: Section[] = [
-  { id: "01", title: "THE ARCHIVE", subtitle: "Meticulously curated performance data points.", image: "/hero-athlete.png", label: "DATA_VOID_01" },
-  { id: "02", title: "EVOLUTION", subtitle: "Where ambition meets biological engineering.", image: "/fac-2.png", label: "BIOMECH_UNIT_A" },
-  { id: "03", title: "VOID CORE", subtitle: "The silent authority in elite conditioning.", image: "/void-core.png", label: "CORE_SEC_09" },
-  { id: "04", title: "SYNAPSE", subtitle: "Neural mapping for elite reaction times.", image: "/fac-1.png", label: "NEURAL_NODE" },
-  { id: "05", title: "RECOVERY", subtitle: "Cryogenic and neurological restoration.", image: "/recovery-chamber.png", label: "RECOVERY_VOID" },
-  { id: "06", title: "DISSIPATION", subtitle: "High-intensity metabolic stress management.", image: "/hero-athlete.png", label: "METABOLIC_FLUX" },
-  { id: "07", title: "ZENITH", subtitle: "Peak physiological output monitoring.", image: "/fac-2.png", label: "ZENITH_APEX" },
-  { id: "08", title: "OBLIVION", subtitle: "Total physical reset protocols.", image: "/fac-1.png", label: "RESET_SYNC" },
+  { id: "01", title: "THE ARCHIVE", subtitle: "Meticulously curated performance data points.", image: getAssetPath("/hero-athlete.png"), label: "DATA_VOID_01" },
+  { id: "02", title: "EVOLUTION", subtitle: "Where ambition meets biological engineering.", image: getAssetPath("/fac-2.png"), label: "BIOMECH_UNIT_A" },
+  { id: "03", title: "VOID CORE", subtitle: "The silent authority in elite conditioning.", image: getAssetPath("/void-core.png"), label: "CORE_SEC_09" },
+  { id: "04", title: "SYNAPSE", subtitle: "Neural mapping for elite reaction times.", image: getAssetPath("/fac-1.png"), label: "NEURAL_NODE" },
+  { id: "05", title: "RECOVERY", subtitle: "Cryogenic and neurological restoration.", image: getAssetPath("/recovery-chamber.png"), label: "RECOVERY_VOID" },
+  { id: "06", title: "DISSIPATION", subtitle: "High-intensity metabolic stress management.", image: getAssetPath("/hero-athlete.png"), label: "METABOLIC_FLUX" },
+  { id: "07", title: "ZENITH", subtitle: "Peak physiological output monitoring.", image: getAssetPath("/fac-2.png"), label: "ZENITH_APEX" },
+  { id: "08", title: "OBLIVION", subtitle: "Total physical reset protocols.", image: getAssetPath("/fac-1.png"), label: "RESET_SYNC" },
 ];
 
 const TOP_ROW = [...SECTIONS_RAW, ...SECTIONS_RAW];
@@ -70,7 +71,7 @@ export function HorizontalScroll() {
             {/* Using Next Image for background to handle basePath automatically */}
             <div className="absolute inset-0 opacity-[0.02] grayscale brightness-50 z-0">
                <Image 
-                 src="/hero-athlete.png" 
+                 src={getAssetPath("/hero-athlete.png")} 
                  alt="HUD background" 
                  fill 
                  className="object-cover"

@@ -8,12 +8,14 @@ import Image from "next/image";
 import { Footer } from "@/components/Footer";
 import { Hash, Activity, Minimize2 } from "lucide-react";
 
+import { getAssetPath } from "@/lib/utils";
+
 const ZONES = [
   {
     id: "01",
     name: "STRENGTH MONOLITH",
     desc: "Surgical-grade steel. Pure performance environment for the disciplined elite. High-gravity environment with integrated biometric floor sensors and zero-latency feedback loops.",
-    img: "/void-core.png",
+    img: getAssetPath("/void-core.png"),
     specs: [
       { label: "BIOMETRIC NODES", value: "248 / M2" },
       { label: "GRAVITY SYNC", value: "ACTIVE" },
@@ -24,7 +26,7 @@ const ZONES = [
     id: "02",
     name: "RECOVERY VOID",
     desc: "Absolute sensory deprivation. Zero-gravity systems for neural recalibration. Deep cryogenic immersion and infrared cellular stimulus protocols for near-instant repair.",
-    img: "/recovery-chamber.png",
+    img: getAssetPath("/recovery-chamber.png"),
     specs: [
       { label: "THERMAL GAP", value: "-145 C" },
       { label: "CELLULAR SYNC", value: "DEEP_TISSUE" },
@@ -35,7 +37,7 @@ const ZONES = [
     id: "03",
     name: "NEURAL HUB",
     desc: "Real-time biometric analytics. Every rep tracked, every millisecond measured. Neural mapping for elite reaction times.",
-    img: "/fac-1.png",
+    img: getAssetPath("/fac-1.png"),
     specs: [
       { label: "LATENCY", value: "0.08 MS" },
       { label: "NEURAL BUFF", value: "+12.4%" },
@@ -46,7 +48,7 @@ const ZONES = [
     id: "04",
     name: "KINETIC LAB",
     desc: "Variable resistance kinetic architecture designed for explosive power output and multidimensional movement optimization.",
-    img: "/fac-2.png",
+    img: getAssetPath("/fac-2.png"),
     specs: [
       { label: "TORQUE MAX", value: "850 NM" },
       { label: "AXIS SYNC", value: "QUAD-LINK" },

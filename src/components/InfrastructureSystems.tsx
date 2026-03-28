@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion";
 import Image from "next/image";
+import { getAssetPath } from "@/lib/utils";
 import { KineticText } from "./KineticText";
 
 const INFRASTRUCTURE = [
@@ -9,7 +10,7 @@ const INFRASTRUCTURE = [
     id: "01",
     name: "KINETIC VOID",
     desc: "The core heavy-lift arena. High-gravity environment with integrated biometric floor sensors and zero-latency feedback loops.",
-    img: "/void-core.png",
+    img: getAssetPath("/void-core.png"),
     specs: [
       { label: "BIOMETRIC NODES", value: "248 / M2" },
       { label: "GRAVITY SYNC", value: "ACTIVE" },
@@ -20,7 +21,7 @@ const INFRASTRUCTURE = [
     id: "02",
     name: "NEURO SYNC",
     desc: "Precision reactive training. Real-time neural mapping combined with variable resistance kinetic architecture.",
-    img: "/fac-1.png",
+    img: getAssetPath("/fac-1.png"),
     specs: [
       { label: "LATENCY", value: "0.08 MS" },
       { label: "NEURAL BUFF", value: "+12.4%" },
@@ -31,7 +32,7 @@ const INFRASTRUCTURE = [
     id: "03",
     name: "RECOVERY UNIT",
     desc: "Advanced neurological restoration. Deep cryogenic immersion and infrared cellular stimulus protocols for near-instant repair.",
-    img: "/recovery-chamber.png",
+    img: getAssetPath("/recovery-chamber.png"),
     specs: [
       { label: "THERMAL GAP", value: "-145 C" },
       { label: "CELLULAR SYNC", value: "DEEP_TISSUE" },
@@ -42,7 +43,7 @@ const INFRASTRUCTURE = [
     id: "04",
     name: "DATA ARCHIVE",
     desc: "Strategic performance analysis. Every heartbeat, every rep, every variable is indexed into the permanent obsidian protocol.",
-    img: "/fac-2.png",
+    img: getAssetPath("/fac-2.png"),
     specs: [
       { label: "STORAGE", value: "PETABYTE ELITE" },
       { label: "DATA_STREAMS", value: "1,400 / LOG" },

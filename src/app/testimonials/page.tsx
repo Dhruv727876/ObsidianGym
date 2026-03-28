@@ -9,12 +9,14 @@ import Image from "next/image";
 import { Footer } from "@/components/Footer";
 import { ArchitecturalGrid } from "@/components/ArchitecturalGrid";
 
+import { getAssetPath } from "@/lib/utils";
+
 const TESTIMONIALS = [
    {
       quote: "The result of this protocol is authority. Not just over the weights, but over your own destiny. I no longer just train; I perform. Obsidian is the missing piece in my professional architecture.",
       author: "MARCUS VALE",
       role: "CEO / ATHLETE",
-      img: "/marcus.png",
+      img: getAssetPath("/marcus.png"),
       id: "01",
       metrics: [
          { label: "BIOMETRIC_SYNC", value: "98.4%" },
@@ -26,7 +28,7 @@ const TESTIMONIALS = [
       quote: "Obsidian transcends the gym experience. It's an editorial approach to physical refinement. Every detail is surgically perfect. This is not for everyone; only for those who understand the value of pure output.",
       author: "ELENA CHEN",
       role: "ELITE PERFORMANCE SPECIALIST",
-      img: "/elena.png",
+      img: getAssetPath("/elena.png"),
       id: "02",
       metrics: [
          { label: "NEURAL_LATENCY", value: "0.05 MS" },
@@ -38,7 +40,7 @@ const TESTIMONIALS = [
       quote: "Pure silence. Pure output. The standard of this facility is unlike anything on the planet. This is for the 1%. Every session feels like a strategic operation rather than a workout.",
       author: "DARIUS NOVA",
       role: "STRENGTH ARCHITECT",
-      img: "/coach-1.png",
+      img: getAssetPath("/coach-1.png"),
       id: "03",
       metrics: [
          { label: "METABOLIC_THRUST", value: "850W" },

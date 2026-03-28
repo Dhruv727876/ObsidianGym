@@ -1,3 +1,5 @@
+import { getAssetPath } from "./utils";
+
 export const SiteConfig = {
   branding: {
     name: "OBSIDIAN",
@@ -20,7 +22,7 @@ export const SiteConfig = {
     statusBadge: "PROTOC-009 / EST. MMXXIV",
     cta: "START PROTOCOL",
     scrollHint: "SCROLL TO ANALYZE",
-    image: "/hero-athlete.png",
+    image: getAssetPath("/hero-athlete.png"),
   },
   sections: {
     philosophy: {
@@ -29,7 +31,7 @@ export const SiteConfig = {
       description: "We do not compete for attention. We command it through the meticulous engineering of human performance. Each movement is a calculation; each protocol a masterpiece.",
       cta: "READ THE PROTOCOL",
       decoNumber: "02",
-      image: "/fac-1.png",
+      image: getAssetPath("/fac-1.png"),
       zone: "ZONE 02 / RECOVERY VOID",
     },
     cta: {

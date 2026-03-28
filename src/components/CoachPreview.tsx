@@ -5,6 +5,7 @@ import { useState, useEffect } from "react";
 import Image from "next/image";
 import { ArchitecturalGrid } from "./ArchitecturalGrid";
 import { Hash, Activity } from "lucide-react";
+import { getAssetPath } from "@/lib/utils";
 
 interface Coach {
   name: string;
@@ -19,7 +20,7 @@ const COACHES: Coach[] = [
   {
     name: "MARCUS VALE",
     role: "HEAD OF STRENGTH",
-    img: "/coach-1.png",
+    img: getAssetPath("/coach-1.png"),
     bio: "Former special forces performance lead with 15 years experience in elite strength conditioning.",
     id: "MV_01",
     stats: [
@@ -31,7 +32,7 @@ const COACHES: Coach[] = [
   {
     name: "YARA CHEN",
     role: "PERFORMANCE ARCHITECT",
-    img: "/coach-2.png",
+    img: getAssetPath("/coach-2.png"),
     bio: "Master of biomechanics and neuromuscular efficiency, specializing in structural longevity.",
     id: "YC_02",
     stats: [
